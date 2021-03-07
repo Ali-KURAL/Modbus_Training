@@ -201,10 +201,6 @@ int main(void)
   while (1)
   {
 
-	  ModbusSlave_SetRegisterValue(&currentDrawnByMotorRegHandle, 10);
-	  ModbusSlave_SetRegisterValue(&currentValueRegHandle, 15);
-	  ModbusSlave_SetRegisterValue(&inputVoltageRegHandle, 25);
-	  ModbusSlave_SetRegisterValue(&activeResistanceValueRegHandle, 35);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -350,6 +346,11 @@ void StartDefaultTask(void const * argument)
   /* Infinite loop */
   for(;;)
   {
+
+	  ModbusSlave_SetRegisterValue(&currentDrawnByMotorRegHandle, 10);
+	  ModbusSlave_SetRegisterValue(&currentValueRegHandle, 15);
+	  ModbusSlave_SetRegisterValue(&inputVoltageRegHandle, 25);
+	  ModbusSlave_SetRegisterValue(&activeResistanceValueRegHandle, 35);
     osDelay(1);
   }
   /* USER CODE END 5 */
