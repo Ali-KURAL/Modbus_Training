@@ -1,0 +1,7 @@
+ModbusRtu_Slave.c:34:5:ModbusRtu_Slave_Init	32	static
+ModbusRtu_Slave.c:57:21:ModbusRtu_Slave_GetBuffer	4	static
+ModbusRtu_Slave.c:61:6:ModbusRtu_Slave_ReceiveTask	288	static
+ModbusRtu_Slave.c:86:6:ModbusRtu_Slave_onReceive	8	static
+ModbusRtu_Slave.c:90:6:ModbusRtu_Slave_Receive	24	static
+ModbusRtu_Slave.c:113:6:ModbusRtu_Slave_Transmit	152	static
+ModbusRtu_Slave.c:128:5:ModbusRtu_Slave_CalculateRxBufferSize	24	static

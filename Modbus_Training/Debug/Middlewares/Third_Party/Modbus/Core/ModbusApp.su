@@ -1,0 +1,14 @@
+ModbusApp.c:21:25:ModbusSlave_CreateCoilStatus	32	static
+ModbusApp.c:39:25:ModbusSlave_CreateInputStatus	32	static
+ModbusApp.c:57:25:ModbusSlave_CreateHoldingRegister	32	static
+ModbusApp.c:75:25:ModbusSlave_CreateInputRegister	32	static
+ModbusApp.c:93:16:ModbusSlave_AddOnReadCallback	24	static
+ModbusApp.c:102:16:ModbusSlave_ClearOnReadCallback	24	static
+ModbusApp.c:113:16:ModbusSlave_AddOnWriteCallback	24	static
+ModbusApp.c:128:16:ModbusSlave_ClearOnWriteCallback	24	static
+ModbusApp.c:143:16:ModbusSlave_SetRegisterValue	24	static
+ModbusApp.c:157:16:ModbusSlave_GetRegisterValue	24	static
+ModbusApp.c:171:16:ModbusSlave_SetRegisterValueByAddress	24	static
+ModbusApp.c:185:16:ModbusSlave_GetRegisterValueByAddress	24	static
+ModbusApp.c:201:17:ModbusSlave_GetRegister	24	static
+ModbusApp.c:234:17:ModbusSlave_GetRegisterByAddress	40	static

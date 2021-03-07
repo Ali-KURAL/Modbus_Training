@@ -1,0 +1,9 @@
+ModbusCore.c:23:6:ModbusCore_Process	24	static
+ModbusCore.c:56:6:ModbusCore_InvalidOperation	16	static
+ModbusCore.c:62:6:ModbusCore_ReadCoilStatus	40	static
+ModbusCore.c:92:6:ModbusCore_ReadInputStatus	40	static
+ModbusCore.c:122:6:ModbusCore_ReadHoldingRegisters	32	static
+ModbusCore.c:146:6:ModbusCore_ReadInputRegisters	32	static
+ModbusCore.c:171:6:ModbusCore_WriteSingleCoil	24	static
+ModbusCore.c:198:6:ModbusCore_WriteSingleHoldingRegister	24	static
+ModbusCore.c:214:6:ModbusCore_ClearPdu	16	static

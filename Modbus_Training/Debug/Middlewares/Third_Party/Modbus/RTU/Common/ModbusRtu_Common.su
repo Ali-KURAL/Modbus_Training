@@ -1,0 +1,5 @@
+ModbusRtu_Common.c:58:6:ModbusRtu_CheckCRC	24	static
+ModbusRtu_Common.c:64:6:ModbusRtu_CreateCRC	16	static
+ModbusRtu_Common.c:68:6:ModbusRtu_ConstructStruct	24	static
+ModbusRtu_Common.c:78:6:ModbusRtu_ConstructBuffer	16	static
+ModbusRtu_Common.c:84:10:ModbusRtu_CalculateCRC	24	static
